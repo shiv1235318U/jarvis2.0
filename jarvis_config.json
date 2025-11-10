@@ -1,0 +1,48 @@
+{
+  "version": "2.0",
+  "assistant": {
+    "call_name": "jarvis",
+    "speak_mode": false,
+    "listen_mode": false,
+    "voice_gender": "male",
+    "voice_rate": 180,
+    "voice_volume": 0.9
+  },
+  "user": {
+    "name": "User",
+    "preferred_greeting": "Hello"
+  },
+  "ai": {
+    "model": "deepseek/deepseek-chat",
+    "temperature": 0.7,
+    "max_tokens": 500,
+    "system_prompt": "You are JARVIS, an advanced AI assistant. Be helpful, concise, and slightly witty when appropriate."
+  },
+  "system": {
+    "search_paths": [
+      "C:\\Program Files",
+      "C:\\Program Files (x86)",
+      "C:\\Users\\%USERNAME%\\AppData\\Local",
+      "C:\\Users\\%USERNAME%\\AppData\\Roaming"
+    ],
+    "auto_save": true,
+    "max_history": 50
+  },
+  "web": {
+    "default_browser": "chrome",
+    "home_page": "https://www.google.com"
+  },
+  "apps": {
+    "chrome": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "notepad": "C:\\Windows\\System32\\notepad.exe",
+    "calculator": "C:\\Windows\\System32\\calc.exe",
+    "paint": "C:\\Windows\\System32\\mspaint.exe"
+  },
+  "custom_commands": {
+    "morning": "Good morning! Here's your daily briefing...",
+    "joke": "Tell me a funny joke",
+    "weather": "What's the weather like today?",
+    "code": "Help me with programming code",
+    "explain": "Explain this in simple terms"
+  }
+}
